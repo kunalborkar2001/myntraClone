@@ -1,0 +1,58 @@
+@media screen and (max-width: 825px) {
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .navLeft h6 {
+        font-size: 12px;
+    }
+    .navSearch {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100vw;
+    }
+
+    .navSearch i {
+        height: 100%;
+        width: 5vw;
+        font-size: 2vh;
+    }
+    .icon1 i, .icon1 p{
+        position: relative;
+        top: 1vh;
+        font-size: 3vw;
+    }
+
+    .page1 {
+        top: 100px;
+    }
+    .sliderContainer{
+        height: 30vh;
+    }
+
+    .donateSection{
+        height: 10vh;
+
+    }
+
+    .donateSection img{
+        height: 100%;
+    }
+
+    .dealsImg{
+        display: flex;
+        flex-direction: column;
+        gap: 6vh;
+    }
+
+    .dealsImg img {
+        height: 60vh;
+        width: 100vw;
+    }
+        
+
+}

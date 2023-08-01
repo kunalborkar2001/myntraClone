@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+nav {
+    font-family: Assistant, -apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    /* background: pink; */
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+
+.navLeft{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+.navLeft img {
+    height: 50%;
+    margin-right: 2vw;
+}
+.navLeft h6 {
+    font-size: .8vw;
+}
+
+.navSearch {
+    position: relative;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.navSearch input {
+    height: 4vh;
+    width: 100%;
+    /* border: 1px solid gray; */
+    border: none;
+    border-radius: 0 .2vw .2vw 0 ;
+    background-color: #F5F5F6;
+
+ 
+}
+.navSearch i {
+    color: gray;
+    width: 2vw;
+    font-size: .9vw;
+    padding: 1.99vh 0;
+    background-color: #F5F5F6;
+    border-radius: .2vw 0 0 .2vw;
+
+}
+
+.navRight {
+    display: flex;
+    gap: 1.5vw;
+}
+.navRight i {
+    font-size: 1.1vw;
+    margin-bottom: .7vw;
+}
+.navRight p {
+    font-size: .8vw;
+    font-weight: 500;
+}
+
+/* page 1 section  */
+.page1{
+    position: relative;
+}
+
+.sliderContainer{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+.heroImg {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+
+}
+
+.slide{
+    height: 100%;
+    width: 100%;
+}
+.slide img {
+    width: 100vw;
+    height: 100%;
+
+}
+
+.bulletContainer{
+    /* background: #000; */
+    display: flex;
+    gap: .5vw;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    /* left: 47%; */
+}
+.bullet {
+    width: 8px;
+    height: 8px;
+    background: gray;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+.donateSection {
+    /* margin-top: 3vh; */
+    width: 100%;
+}
+.donateSection img{
+    width: 100%;
+}
+
+.deals {
+    /* background-color: red; */
+    height: 50vh;
+}
+.deals h1{
+    font-family: Assistant, -apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 3vh;
+    margin-left: 2vw;
+    margin-bottom: 3vh;
+}
+.dealsImg {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content:space-between;
+    
+} 
+
+.dealsImg img {
+    height: 35vh;
+    width: 12.5vw
+}
